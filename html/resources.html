@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources - Tracy Jones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- Navigation Bar -->
+    <nav
+      class="flex justify-between items-center px-6 lg:px-20 py-6 border-b border-gray-300"
+    >
+      <ul class="flex space-x-6 text-lg font-medium">
+        <li><a href="/" class="hover:text-gray-500">HOME</a></li>
+        <li><a href="./about.html" class="hover:text-gray-500">ABOUT</a></li>
+        <li>
+          <a href="./articles.html" class="hover:text-gray-500">ARTICLES</a>
+        </li>
+        <li><a href="" class="hover:text-gray-500">BLOG</a></li>
+        <li><a href="media.html" class="hover:text-gray-500">MEDIA</a></li>
+        <li>
+          <a href="resources.html" class="hover:text-gray-500">RESOURCES</a>
+        </li>
+      </ul>
+      <a
+        href="contact.html"
+        class="px-6 py-3 border border-gray-500 text-gray-700 hover:bg-gray-700 hover:text-white transition"
+      >
+        CONTACT
+      </a>
+    </nav>
+
+    <!-- Resources Grid -->
+    <div class="py-16 px-6 lg:px-20">
+      <h1 class="text-4xl font-light tracking-wide text-center">Resources</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <!-- Book Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative">
+            <img
+              src="book1.jpg"
+              alt="Feeling Good"
+              class="w-full h-56 object-cover"
+            />
+            <span
+              class="absolute top-3 right-3 bg-pink-300 text-white text-xs font-bold px-3 py-1 rounded-full"
+            >
+              BOOK
+            </span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">Feeling Good</h3>
+            <p class="text-gray-600 mt-2 italic">
+              From renowned psychiatrist Dr. David D. Burns, the revolutionary
+              volume that popularized Dr. Aaron T. Beck’s cognitive behavioral
+              therapy (CBT).
+            </p>
+            <a href="#" class="text-pink-600 font-semibold mt-4 inline-block"
+              >READ MORE »</a
+            >
+          </div>
+        </div>
+
+        <!-- Book Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative">
+            <img
+              src="book2.jpg"
+              alt="Bedlam"
+              class="w-full h-56 object-cover"
+            />
+            <span
+              class="absolute top-3 right-3 bg-pink-300 text-white text-xs font-bold px-3 py-1 rounded-full"
+            >
+              BOOK
+            </span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold">Bedlam</h3>
+            <p class="text-gray-600 mt-2 italic">
+              A brief history of the evolution of mental health care in the U.S.
+            </p>
+            <a href="#" class="text-pink-600 font-semibold mt-4 inline-block"
+              >READ MORE »</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
