@@ -4,7 +4,11 @@ const config = {
         "./src/**/*.{html,js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                cormorant: ["Cormorant", "serif"],
+            },
+        },
     },
     plugins: [],
 };
