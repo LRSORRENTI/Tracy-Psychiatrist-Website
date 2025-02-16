@@ -143,7 +143,7 @@
           </button>
         </a>
       </div>
-      <div class="relative">
+      <div class="relative mb-3 md:mb-0">
         <div
           class="absolute bg-pink-300 w-full h-full rounded-sm left-[0.6rem] top-[0.5rem]"
         ></div>
@@ -301,17 +301,16 @@
         </div>
 
         <!-- Newsletter Signup -->
-        <div class="space-y-4">
+        <div id="newsletter" class="space-y-4">
           <h3 class="text-lg font-medium text-gray-900">STAY CONNECTED</h3>
           <input
             type="email"
             placeholder="Enter your best email address"
-            class="w-full border border-gray-700 p-3 focus:outline-none focus:ring-2 focus:ring-gray-700"
+            class="w-full border border-pink-300 p-3 focus:outline-none focus:ring-1 focus:ring-pink-300"
           />
-          <button
-            class="border rounded-sm border-pink-300 text-gray-700 px-6 py-3 mt-2 text-lg font-medium hover:bg-pink-300 hover:text-white transition"
-          >
-            JOIN
+          <button class="relative overflow-hidden border border-pink-300 text-gray-700 px-6 py-3 mt-2 text-lg font-medium transition duration-300 rounded-sm group hover:text-white">
+            <span class="relative z-10">JOIN</span>
+            <span class="absolute left-0 bottom-0 w-full h-0 bg-pink-300 transition-all duration-300 ease-in-out group-hover:h-full"></span>
           </button>
         </div>
       </div>
