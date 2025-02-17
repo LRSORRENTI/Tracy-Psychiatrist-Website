@@ -22,3 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(element);
     });
   });
+
+const emailInputField = document.getElementById('email');
+const emailSubmitBtn = document.getElementById('emailSubmitBtn');
+
+emailSubmitBtn.addEventListener('click', () => {
+    emailInputField.value = '';
+})
