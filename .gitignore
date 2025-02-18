@@ -3,9 +3,6 @@
 node_modules/
 package-lock.json
 
-# Tailwind config & build files
-tailwind.config.js
-postcss.config.js
 
 # Original unminified files (keep minified versions)
 
