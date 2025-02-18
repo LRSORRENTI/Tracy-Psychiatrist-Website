@@ -1,0 +1,25 @@
+{
+  "name": "psychiatrist-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./css/main.css -o ./css/main.build.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRSORRENTI/Tracy-Psychiatrist-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LRSORRENTI/Tracy-Psychiatrist-Website/issues"
+  },
+  "homepage": "https://github.com/LRSORRENTI/Tracy-Psychiatrist-Website#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}

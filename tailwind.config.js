@@ -1,16 +1,13 @@
-/** @type {import('tailwindcss').Config} */
-const config = {
+// tailwind.config.js
+module.exports = {
     content: [
-        "./src/**/*.{html,js,ts,jsx,tsx}",
+      "./index.html", // Main index file
+      "./html/**/*.html", // All HTML files inside html/
+      "./js/**/*.js", // All JS files inside js/
     ],
     theme: {
-        extend: {
-            fontFamily: {
-                cormorant: ["Cormorant", "serif"],
-            },
-        },
+      extend: {},
     },
     plugins: [],
-};
-
-export default config;
+  };
+  
