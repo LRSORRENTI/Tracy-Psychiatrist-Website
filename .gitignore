@@ -1,1 +1,14 @@
 /ref
+# Node.js & Tailwind build files
+node_modules/
+package-lock.json
+
+
+# Original unminified files (keep minified versions)
+
+js/index.js
+
+/css/index.css
+
+# Other build files
+*.log
