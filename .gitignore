@@ -1,7 +1,7 @@
 /ref
 # Node.js & Tailwind build files
 node_modules/
-package-lock.json
+
 
 
 # Original unminified files (keep minified versions)
